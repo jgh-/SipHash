@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:4.2
 //
 //  Package.swift
 //  SipHash
@@ -19,5 +19,5 @@ let package = Package(
         .target(name: "SipHash", dependencies: [], path: "SipHash"),
         .testTarget(name: "SipHashTests", dependencies: ["SipHash"], path: "SipHashTests")
     ],
-    swiftLanguageVersions: [4]
+    swiftLanguageVersions: [.v4, .v4_2, .v5]
 )
